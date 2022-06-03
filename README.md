@@ -1,1 +1,1 @@
-# rsschool-cv
+https://GITHUB-Tetyiana.github.io/rsschool-cv/cv
