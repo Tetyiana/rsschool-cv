@@ -1,1 +1,1 @@
-https://GITHUB-Tetyiana.github.io/rsschool-cv/cv
+https://GITHUB-Tetyiana.github.io/rsschool-cv/
