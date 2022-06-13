@@ -1,0 +1,33 @@
+body {
+    background-color: #C0CDCD;
+    color: #556768;
+    font: italic bold 32px URW Chancery, cursive;
+    line-height: 52px;
+}
+
+.one {
+    padding: 20px;
+    margin: 40px;
+    display: inline-block;
+    max-width: 90%;
+    text-align: left;
+
+}
+#two {
+    color: #3c4041;
+    left: 600px;
+
+}
+.left {
+    text-align: left;
+    color: #3c4041;
+}
+
+.right {
+    text-align: right;
+    color: #3c4041;
+    margin: 400px;
+}
+table {
+    border-spacing: 10px 40px;
+}

@@ -4,20 +4,21 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=CV, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/style.css">
 
   <title>CV</title>
 </head>
 
-<body>
-
+<body >
   <header>
-<div class="photo">
+<div class="one">
 
-<img src="таня аватарка.jpg" alt="photo" width="320">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEbYn2Irdev6v7RA8FPSk180OGCd3QxQ43Iw&usqp=CAU" alt="logo" width="480">
 
+</div>
 
-   <h1 class="navi">
+<div class="one">
+   <h1>
     <ul>
     ARTIBYAKINA TETYIANA
   </ul>
@@ -25,13 +26,13 @@
   </nav>
   <h3>
   <li>
-    <a href="#contact">contact</a>
+    <a href="#contact" id="two">contact</a>
   </li>
   <li>
-    <a href="#about me">about me</a>
+    <a href="#about me" id="two">about me</a>
   </li>
   <li>
-    <a href="#code">code</a>
+    <a href="#code" id="two">code</a>
   </li>
 </h3>
 </nav>
@@ -67,12 +68,13 @@
             Kyiv, Ukraine
           </th>
         </tr>
+        
          <tr>
           <th id="about me">
             ABOUT ME
           </th>
           <th>
-              I am 47 years old.The time has finally come to take up a business that has been interesting all my life, but for which there was no time between raising children, now grandchildren, work, home.There is no programming experience, if you do not take into account the update 1C and computer science at school on Basic.This CV is my first job in programming
+              I am 47 years old.The time has finally come to take up a business that has been interesting all my life, but for which there was no time between raising children, now grandchildren, work, home.i have not programming experience, if you do not take into account the update 1C and computer science at school on Basic.This CV is my first job in programming
             </th>
          </tr>
          <tr>
@@ -93,14 +95,29 @@
             </ul>
           </th>
          </tr>
+
          <tr>
           <th id="code">
-            CODE
+            CODE EXAMPLE
           </th>
           <th>
-            --тут має бути зразок коду 
+           
+            <pre><code>
+              &lt;tr&gt;
+              &lt;th&gt;
+                LOCATION
+              &lt;/th&gt;
+              &lt;th&gt;
+                Kyiv, Ukraine
+              &lt;/th&gt;
+            &lt;/tr&gt;
+             &lt;tr&gt;
+              &lt;th id=&quot;about me&quot;&gt;
+                ABOUT ME
+              &lt;/th&gt;</code></pre>
+              
           </th>
-         </tr>
+          </tr>
          <tr>
           <th>
             EDUCATION
@@ -131,10 +148,13 @@
   </main>
  
   <footer>
-    <img src="https://rs.school/images/rs_school_js.svg" alt="logo rss" width="100">
-    <span>2022</span>
-    <a href="https://github.com/Tetyiana">pages GITHUB</a>
-    <a href="https://rs.school/js/">RSSCHOOL</a> 
+    
+   
+    <a href="https://rs.school/js" class="left">RS SCHOOL</a>
+    <img src="https://rs.school/images/rs_school_js.svg" alt="logo rss" width="100" >
+    <a href="https://github.com/Tetyiana" class="right">pages GITHUB/Tetyiana</a> 
+    <p>2022</p>
+  
   </footer>
 
 </body>
