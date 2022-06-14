@@ -1,23 +1,29 @@
 body {
     background-color: #C0CDCD;
     color: #556768;
-    font: italic bold 32px URW Chancery, cursive;
-    line-height: 52px;
+    font: italic bold 36px URW Chancery, cursive;
+    line-height: 48px;
 }
 
 .one {
-    padding: 20px;
+    padding: 5px;
     margin: 40px;
     display: inline-block;
-    max-width: 90%;
+    max-width: 100%;
     text-align: left;
 
 }
-#two {
+#contact {
     color: #3c4041;
-    left: 400px;
-
 }
+#about {
+    color: #3c4041;
+}
+#code {
+    color: #3c4041;
+}
+
+
 .left {
     text-align: left;
     color: #3c4041;
@@ -26,7 +32,7 @@ body {
 .right {
     text-align: right;
     color: #3c4041;
-    margin: 320px;
+    margin: 240px;
 }
 table {
     border-spacing: 10px 40px;
