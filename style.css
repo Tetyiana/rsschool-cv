@@ -15,7 +15,7 @@ body {
 }
 #two {
     color: #3c4041;
-    left: 600px;
+    left: 400px;
 
 }
 .left {
@@ -26,8 +26,13 @@ body {
 .right {
     text-align: right;
     color: #3c4041;
-    margin: 400px;
+    margin: 320px;
 }
 table {
     border-spacing: 10px 40px;
+}
+.code {
+    background-color: #dfe7f0;
+    text-align: left;
+    margin: 5px;   
 }
